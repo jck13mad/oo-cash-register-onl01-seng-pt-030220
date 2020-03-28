@@ -10,7 +10,7 @@ class CashRegister
     @last_item = []
   end
   
-  def add_item(cost, name, number = 1)
+  def add_item(cost, name, quantity = 1)
     
   end
   
