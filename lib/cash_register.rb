@@ -12,6 +12,8 @@ class CashRegister
   
   def add_item(cost, name, quantity = 1)
     @total += price * quantity
+    quantity.times do
+      @
   end
   
   def apply_discount
