@@ -12,8 +12,8 @@ class CashRegister
   
   def apply_discount
     if discount != 0 
-      @total -= (@total * (@discount / 100.to_f))
-      "After the discount, the total comes out to be #{@total.to_i}."
+      @total -= (@total * (@discount / 100.to_i))
+      "After the discount, the total comes out to be #{@total.to_f}."
     else
       "There is no discount to apply."
     end
